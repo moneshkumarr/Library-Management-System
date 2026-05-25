@@ -4,8 +4,6 @@ import os
 import platform
 import sys
 from typing import Optional, List, Tuple, Any
-
-# Database Connection
 def get_connection() -> Optional[cx_Oracle.Connection]:
     """Establish a connection to the Oracle database."""
     try:
